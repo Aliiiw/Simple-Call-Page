@@ -74,7 +74,7 @@ fun MyCallingView() {
         Card(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(300.dp)
+                .height(400.dp)
                 .padding(16.dp), elevation = 10.dp, shape = RoundedCornerShape(12.dp)
         ) {
             Column(
@@ -114,6 +114,14 @@ fun MyCallingView() {
                     MyItemToShow(image = painterResource(id = R.drawable.mic), title = "Mute")
                     MyItemToShow(image = painterResource(id = R.drawable.dial), title = "Keypad")
                 }
+                
+                Spacer(modifier = Modifier.height(28.dp))
+
+                Image(
+                    painter = painterResource(id = R.drawable.phone),
+                    contentDescription = "",
+                    modifier = Modifier.size(55.dp)
+                )
 
             }
         }
