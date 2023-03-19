@@ -2,4 +2,4 @@
 This is the Call Page of android mobiles simple Ui
 
 
-![Header Image](/images/result.png)
+<img src="/images/result.png" width="300" height="400"/>
